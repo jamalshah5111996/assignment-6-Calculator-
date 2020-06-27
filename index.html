@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+    <div class="heading"><h1>CALCULATOR</h1></div>
+     <div class="main">
+        <div>
+            <input id="result" type="text" style="height: 30px;font-size: 25px;color: black;background-color: #f4f4f4; font-weight: bold;text-shadow: 2px 2px 2px rgb(201, 246, 243);background-image: none;"> <button class="clrbtn" onclick="clearResult()">C</button>
+        </div>
+        <div class="seconddiv">
+            <button class="btn1" onclick="getNum('7')">7</button>
+            <button class="btn1" onclick="getNum('8')">8</button>
+            <button class="btn1" onclick="getNum('9')">9</button>
+            <button class="btn1" onclick="getNum('*')" id="multi" onclick="getNumber('X')">X</button>
+        </div>
+        <div class="thirddiv">
+    
+            <button class="btn2" onclick="getNum('4')">4</button>
+            <button class="btn2" onclick="getNum('5')">5</button>
+            <button class="btn2" onclick="getNum('6')">6</button>
+            <button class="btn2" id="minus" onclick="getNum('-')">−</button>
+        </div>
+        <div class="forthdiv">
+    
+            <button class="btn3" onclick="getNum('1')">1</button>
+            <button class="btn3" onclick="getNum('2')">2</button>
+            <button class="btn3" onclick="getNum('3')">3</button>
+            <button class="btn3" id="plus" onclick="getNum('+')">+</button>
+        </div>
+        <div class="fifthdiv">
+    
+            <button class="btn4" onclick="getNum('0')">0</button>
+            <button class="btn4" id="equal" onclick="getResult()">=</button>
+            <button class="btn4" id="divide" onclick="getNum('/')">÷</button>
+            
+        </div>
+        <div>
+        <div>
+    
+        </div>
+    </div> 
+</center>
+
+</body>
+<script src="app.js"></script>
+</html>

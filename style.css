@@ -1,0 +1,119 @@
+*{
+    background-image: url(background.jpeg);
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black,2px 2px 2px black,2px 2px 2px black;
+}
+.heading{
+}
+.main{
+    width: 400px;
+    height: 300px;
+    margin:  15% auto;
+    background-image: none;
+}
+#result{
+    width: 97%;
+    text-align: center;
+    border: 2px solid black;
+    background-image: none;
+}
+.clrbtn{
+    width: 45px;
+    height: 36px;
+    background-color: f4f4f4;
+    color: red;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    top: -36px;
+    left: 175px;
+    background-image: none;
+}
+.seconddiv{position: relative;
+    top: -25px;
+    background-image: none;
+}
+.btn1{
+    width: 70px;
+    background-image: none;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.thirddiv{
+    position: relative;
+    background-image: none;
+    top: -22px;
+    background-image: none;
+}
+.btn2{width: 60px;
+    height: 30px;
+    background-image: none;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+.forthdiv{
+    position: relative;
+    top: -18px;
+    background-image: none;
+}
+.btn3{width: 50px;
+    height: 30px;
+    font-size: 20px;
+    background-image: none;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+.fifthdiv{
+    position: relative;
+    top: -18px;
+    background-image: none;
+}
+.btn4{width: 55px;
+    height: 30px;
+    background-image: none;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+.halfbtn{
+    width: 95px;
+    margin-top: 5px;
+    background-image: none;
+}
+#multi{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(88, 145, 28);
+}
+#plus{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(88, 145, 28);
+}
+#minus{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(88, 145, 28);
+}
+#equal{
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    background-color: rgb(88, 145, 28);
+}
+#divide{
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(88, 145, 28);
+}
